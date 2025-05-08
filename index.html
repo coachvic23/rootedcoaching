@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rooted Coaching – Victor</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f1ea;
+      color: #2e2a26;
+    }
+    header {
+      background-color: #3f3d36;
+      color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      font-size: 1.2em;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .image-placeholder {
+      width: 100%;
+      max-width: 600px;
+      height: 300px;
+      background-color: #ccc;
+      margin: 20px auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #666;
+    }
+    .btn {
+      display: inline-block;
+      background-color: #6d8f72;
+      color: white;
+      padding: 12px 24px;
+      margin: 20px auto;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      text-align: center;
+    }
+    .toggle {
+      margin: 10px 0;
+    }
+    .toggle input {
+      display: none;
+    }
+    .toggle label {
+      display: block;
+      background-color: #6d8f72;
+      color: #fff;
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .toggle-content {
+      display: none;
+      background: #e8efe6;
+      padding: 15px;
+      border-radius: 5px;
+      margin-top: 5px;
+    }
+    .toggle input:checked ~ .toggle-content {
+      display: block;
+    }
+    footer {
+      background-color: #3f3d36;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Rooted Coaching</h1>
+    <p>Ganzheitliches Coaching für Körper, Geist und Alltag</p>
+    <a href="#kontakt" class="btn">Kostenloses Erstgespräch buchen</a>
+  </header>
+
+  <div class="section">
+    <h2>Wer ich bin</h2>
+    <div class="image-placeholder">Bild von dir hier</div>
+    <p>
+      Ich bin Victor – Personal Trainer, Coach & Begleiter für Menschen in Umbruchphasen.
+      Mit "Rooted Coaching" unterstütze ich dich dabei, wieder bei dir selbst anzukommen:
+      durch Bewegung, Ernährung, Schlaf & mentale Klarheit.
+    </p>
+    <a href="#kontakt" class="btn">Erstgespräch starten</a>
+  </div>
+
+  <div class="section">
+    <h2>So läuft mein Coaching ab</h2>
+    <div class="toggle">
+      <input type="checkbox" id="step1" />
+      <label for="step1">1. Kennenlernen & Zielklärung</label>
+      <div class="toggle-content">
+        Wir analysieren gemeinsam deinen Status Quo und definieren klare Ziele für deinen Weg.
+      </div>
+    </div>
+    <div class="toggle">
+      <input type="checkbox" id="step2" />
+      <label for="step2">2. Individueller Plan</label>
+      <div class="toggle-content">
+        Du bekommst einen maßgeschneiderten Plan für Training, Ernährung, Regeneration und mentale Balance.
+      </div>
+    </div>
+    <div class="toggle">
+      <input type="checkbox" id="step3" />
+      <label for="step3">3. Regelmäßige Check-ins</label>
+      <div class="toggle-content">
+        Alle 2–4 Wochen prüfen wir deinen Fortschritt, passen das Programm an und lösen Herausforderungen.
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Fragen & Antworten</h2>
+    <div class="toggle">
+      <input type="checkbox" id="faq1" />
+      <label for="faq1">Was kostet das Coaching?</label>
+      <div class="toggle-content">
+        Meine Coaching-Pakete starten ab 850 € für 3 Monate. Es gibt auch langfristige Begleitungen mit Rabatt.
+      </div>
+    </div>
+    <div class="toggle">
+      <input type="checkbox" id="faq2" />
+      <label for="faq2">Muss ich sportlich sein?</label>
+      <div class="toggle-content">
+        Nein. Ich hole dich genau dort ab, wo du stehst – auch wenn du jahrelang keinen Sport gemacht hast.
+      </div>
+    </div>
+    <div class="toggle">
+      <input type="checkbox" id="faq3" />
+      <label for="faq3">Wie starten wir?</label>
+      <div class="toggle-content">
+        Schick mir einfach eine Nachricht oder folge dem Link zur Buchung eines kostenlosen Erstgesprächs.
+      </div>
+    </div>
+    <a href="#kontakt" class="btn">Ich will loslegen!</a>
+  </div>
+
+  <div class="section" id="kontakt">
+    <h2>Kontaktiere mich</h2>
+    <p>Schreibe mir eine E-Mail an <strong>victor@rootedcoaching.de</strong> oder buche direkt dein Erstgespräch über diesen Button:</p>
+    <a href="https://calendly.com/dein-link" class="btn">Erstgespräch buchen</a>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Rooted Coaching – Victor</p>
+  </footer>
+</body>
+</html>
